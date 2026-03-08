@@ -6,11 +6,9 @@ font-family:Inter;
 }
 
 body{
-
 background:#050505;
 color:white;
 overflow-x:hidden;
-
 }
 
 
@@ -293,6 +291,23 @@ font-size:20px;
 
 
 
+/* bottom CTA section improvement */
+
+.ctaSection{
+padding:120px 20px;
+display:flex;
+justify-content:center;
+}
+
+.ctaGlass{
+padding:55px 70px;
+max-width:650px;
+width:100%;
+text-align:center;
+}
+
+
+
 /* form */
 
 .applyPage{
@@ -331,20 +346,57 @@ border-radius:8px;
 
 @media(max-width:768px){
 
+.hero{
+padding:140px 28px 120px;
+}
+
 .heroTitle{
 font-size:42px;
+line-height:1.2;
+margin-bottom:24px;
+}
+
+.heroSub{
+margin-bottom:36px;
 }
 
 .nav{
-padding:16px;
+padding:18px 22px;
+}
+
+.section{
+padding:110px 28px;
 }
 
 .grid{
 grid-template-columns:1fr;
+gap:32px;
+}
+
+.card{
+padding:34px;
 }
 
 .fakeAds{
-gap:15px;
+gap:26px;
+padding:70px 20px;
+}
+
+.adWidget{
+width:200px;
+padding:34px;
+}
+
+.timeline{
+gap:36px;
+}
+
+.step{
+padding:32px;
+}
+
+.ctaGlass{
+padding:45px 40px;
 }
 
 }
